@@ -29,7 +29,7 @@ body {
 
 #Canvas {
     background-color: hsl(244, 38%, 16%);
-    width: 52rem;
+    width: 55rem;
     display: flex;
     border-radius: 10px;
     color: #fff;
@@ -41,10 +41,10 @@ body {
 }
 
 #Canvas .text-component {
-    padding: 45px;
+    padding: 3rem 0 1.5rem;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 15px;
 }
 
 #Canvas .text-component h1 {
@@ -56,9 +56,9 @@ body {
 }
 
 #Canvas .text-component p {
-    font-size: 0.74rem;
+    font-size: 0.8rem;
     margin-top: 10px;
-    line-height: 1.7;
+    line-height: 1.9;
     color: hsla(0, 0%, 100%, 0.75);
 }
 
@@ -67,7 +67,7 @@ body {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    margin-top: 40px;
+    margin-top: 45px;
     font-family: var(--Lexend);
 }
 
@@ -111,12 +111,11 @@ body {
         height: fit-content;
     }
     #Canvas .text-component {
-        padding: 3.125rem 0px;
         padding-left: 3rem;
         padding-right: 5rem;
     }
     #Canvas .text-component ul {
-        padding-right: 1rem;
+        padding-right: 1.05rem;
         padding-left: 0.25rem;
     }
 }
