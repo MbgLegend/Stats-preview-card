@@ -108,7 +108,7 @@ body {
 
 @media (min-width: 901px) {
     #Canvas {
-        height: 52%;
+        height: fit-content;
     }
     #Canvas .text-component {
         padding: 3.125rem 0px;
